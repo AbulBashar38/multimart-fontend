@@ -17,10 +17,10 @@ const TopBarDark = ({ topClass, fluid }) => {
           <Col lg="6">
             <div className="header-contact">
               <ul>
-                <li>Welcome to Our store Multikart</li>
+                <li>Welcome to Multimart</li>
                 <li>
-                  <i className="fa fa-phone text-white" aria-hidden="true"></i>Call Us: 123
-                  - 456 - 7890
+                  <i class="fa-solid fa-phone-volume"></i> Contact :
+                  +8801972252777
                 </li>
               </ul>
             </div>
@@ -30,12 +30,12 @@ const TopBarDark = ({ topClass, fluid }) => {
               <li className="mobile-wishlist">
                 <Link href="/page/account/wishlist">
                   <a>
-                    <i className="fa fa-heart" aria-hidden="true"></i> wishlist
+                    <i class="fa-solid fa-heart-circle-plus"></i> wishlist
                   </a>
                 </Link>
               </li>
               <li className="onhover-dropdown mobile-account">
-                <i className="fa fa-user" aria-hidden="true"></i> My Account
+                <i class="fa-solid fa-user-gear"></i> Account
                 <ul className="onhover-show-div">
                   <li>
                     <Link href={`/page/account/login`}>
