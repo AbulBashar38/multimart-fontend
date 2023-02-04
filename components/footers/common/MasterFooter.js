@@ -39,9 +39,8 @@ const MasterFooter = ({
     window.addEventListener("resize", changeCollapse);
 
     return () => {
-      window.removeEventListener('resize', changeCollapse)
-    }
-
+      window.removeEventListener("resize", changeCollapse);
+    };
   }, []);
   return (
     <div>
@@ -90,8 +89,9 @@ const MasterFooter = ({
             <Row className="footer-theme partition-f">
               <Col lg="4" md="6">
                 <div
-                  className={`footer-title ${isOpen && collapse == 1 ? "active" : ""
-                    } footer-mobile-title`}
+                  className={`footer-title ${
+                    isOpen && collapse == 1 ? "active" : ""
+                  } footer-mobile-title`}
                 >
                   <h4
                     onClick={() => {
@@ -119,31 +119,22 @@ const MasterFooter = ({
                       <ul>
                         <li>
                           <a href="https://www.facebook.com" target="_blank">
-                            <i
-                              className="fa fa-facebook"
-                              aria-hidden="true"
-                            ></i>
+                            <i class="fa-brands fa-facebook"></i>
                           </a>
                         </li>
                         <li>
-                          <a href="https://plus.google.com" target="_blank">
-                            <i
-                              className="fa fa-google-plus"
-                              aria-hidden="true"
-                            ></i>
+                          <a href="https://youtube.com" target="_blank">
+                            <i class="fa-brands fa-youtube"></i>
                           </a>
                         </li>
                         <li>
                           <a href="https://twitter.com" target="_blank">
-                            <i className="fa fa-twitter" aria-hidden="true"></i>
+                            <i class="fa-brands fa-twitter"></i>
                           </a>
                         </li>
                         <li>
                           <a href="https://www.instagram.com" target="_blank">
-                            <i
-                              className="fa fa-instagram"
-                              aria-hidden="true"
-                            ></i>
+                            <i class="fa-brands fa-instagram"></i>
                           </a>
                         </li>
                         <li>
@@ -159,8 +150,9 @@ const MasterFooter = ({
               <Col className="offset-xl-1">
                 <div className="sub-title">
                   <div
-                    className={`footer-title ${isOpen && collapse == 2 ? "active" : ""
-                      } `}
+                    className={`footer-title ${
+                      isOpen && collapse == 2 ? "active" : ""
+                    } `}
                   >
                     <h4
                       onClick={() => {
@@ -207,8 +199,9 @@ const MasterFooter = ({
               <Col>
                 <div className="sub-title">
                   <div
-                    className={`footer-title ${isOpen && collapse == 3 ? "active" : ""
-                      } `}
+                    className={`footer-title ${
+                      isOpen && collapse == 3 ? "active" : ""
+                    } `}
                   >
                     <h4
                       onClick={() => {
@@ -250,8 +243,9 @@ const MasterFooter = ({
               <Col>
                 <div className="sub-title">
                   <div
-                    className={`footer-title ${isOpen && collapse == 4 ? "active" : ""
-                      } `}
+                    className={`footer-title ${
+                      isOpen && collapse == 4 ? "active" : ""
+                    } `}
                   >
                     <h4
                       onClick={() => {
@@ -271,18 +265,16 @@ const MasterFooter = ({
                     <div className="footer-contant">
                       <ul className="contact-list">
                         <li>
-                          <i className="fa fa-map-marker"></i>Multikart Demo
-                          Store, Demo store India 345-659
+                          <i class="fa-solid fa-map-location-dot"></i>Multikart
+                          Demo Store, Demo store Bangladesh 345-659
                         </li>
                         <li>
-                          <i className="fa fa-phone"></i>Call Us: 123-456-7898
+                          <i class="fa-solid fa-phone-volume"></i>Call Us:
+                          +8801972252777
                         </li>
                         <li>
-                          <i className="fa fa-envelope-o"></i>Email Us:{" "}
+                          <i class="fa-solid fa-paper-plane"></i>Email Us:{" "}
                           <a href="#">Support@Fiot.com</a>
-                        </li>
-                        <li>
-                          <i className="fa fa-fax"></i>Fax: 123456
                         </li>
                       </ul>
                     </div>

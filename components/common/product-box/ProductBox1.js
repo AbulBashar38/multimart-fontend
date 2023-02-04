@@ -86,16 +86,16 @@ const ProductItem = ({
 
         <div className={cartClass}>
           <button title="Add to cart" onClick={addCart}>
-            <i className="fa fa-shopping-cart" aria-hidden="true"></i>
+            <i class="fa-solid fa-cart-plus"></i>
           </button>
           <a href={null} title="Add to Wishlist" onClick={addWishlist}>
-            <i className="fa fa-heart" aria-hidden="true"></i>
+            <i class="fa-solid fa-heart-circle-plus"></i>
           </a>
           <a href={null} title="Quick View" onClick={toggle}>
-            <i className="fa fa-search" aria-hidden="true"></i>
+            <i class="fa-solid fa-eye"></i>
           </a>
           <a href={null} title="Compare" onClick={toggleCompare}>
-            <i className="fa fa-refresh" aria-hidden="true"></i>
+            <i class="fa-solid fa-scale-balanced"></i>
           </a>
           <Modal
             isOpen={modalCompare}

@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import { Row, Col, Media, Container } from "reactstrap";
 import { useQuery } from "@apollo/client";
-import { gql } from '@apollo/client';
+import { gql } from "@apollo/client";
 
 const GET_PRODUCTS = gql`
   query instagram($type: String!) {
@@ -67,7 +67,7 @@ const Instagram = ({ type }) => {
           type == "fashion" ||
           type == "kids" ||
           type == "christmas" ||
-          type == "fashion"   ||
+          type == "fashion" ||
           type == "marketplace"
             ? "p-0"
             : ""
@@ -91,10 +91,7 @@ const Instagram = ({ type }) => {
                             style={{ width: "100%" }}
                           />
                           <div className="overlay">
-                            <i
-                              className="fa fa-instagram"
-                              aria-hidden="true"
-                            ></i>
+                            <i class="fa-brands fa-instagram"></i>
                           </div>
                         </div>
                       </a>
