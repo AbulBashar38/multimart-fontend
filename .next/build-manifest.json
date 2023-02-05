@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/layouts/Fashion2": [
+    "/layouts/Fashion3": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/layouts/Fashion2.js"
+      "static/chunks/pages/layouts/Fashion3.js"
     ]
   },
   "ampFirstPages": []

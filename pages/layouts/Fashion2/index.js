@@ -13,6 +13,7 @@ import MasterFooterTwo from "../../../components/footers/common/MasterFooterTwo"
 const Fashion2 = () => {
   return (
     <>
+      {/* this is fashion 2nd layout */}
       <ModalComponent />
       <HeaderTen logoName={"logo/12.png"} topClass="top-header-dark2" />
       <HomeSlider />
