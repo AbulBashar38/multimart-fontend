@@ -48,10 +48,7 @@ const HeaderTen = ({ logoName, topClass, headerClass }) => {
                         <a href={null} onClick={openNav}>
                           <div className="bar-style">
                             {" "}
-                            <i
-                              className="fa fa-bars sidebar-bar"
-                              aria-hidden="true"
-                            ></i>
+                            <i class="fa-solid fa-sliders"></i>
                           </div>
                         </a>
                         {/*SideBar Navigation Component*/}

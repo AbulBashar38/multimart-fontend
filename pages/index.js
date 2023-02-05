@@ -26,15 +26,21 @@ const Fashion = () => {
           href={"/assets/images/favicon/1.png"}
         />
       </Helmet>
+      {/* this is modal that you see in every time when you refresh page */}
       <ModalComponent />
+      {/* this is navbar */}
       <HeaderOne logoName={"logo.png"} topClass="top-header" />
+      {/* this is hero slider */}
       <Banner />
+      {/* this is most highligh info for customer*/}
       <CollectionBanner />
+      {/* information about top collection */}
       <Paragraph
         title="title1 section-t-space"
         inner="title-inner1"
         hrClass={false}
       />
+      {/* this is top collection product */}
       <TopCollection
         noTitle="null"
         backImage={true}
@@ -46,7 +52,9 @@ const Fashion = () => {
         noSlider="false"
         cartClass="cart-info cart-wrap"
       />
+      {/* here is parallax banner */}
       <Parallax />
+      {/* various types of products */}
       <SpecialProducts
         type="fashion"
         backImage={true}
@@ -58,12 +66,17 @@ const Fashion = () => {
         noSlider="true"
         cartClass="cart-info cart-wrap"
       />
+      {/* key info of your services */}
       <ServiceLayout sectionClass="border-section small-section" />
+      {/* blog of about your product  */}
       <Blog type="fashion" title="title1" inner="title-inner1" />
+      {/* Instagram product  */}
       <Instagram type="fashion" />
+      {/* all logo related with your business */}
       <div className="section-b-space">
         <LogoBlock />
       </div>
+      {/* this is your footer  */}
       <MasterFooter
         footerClass={`footer-light`}
         footerLayOut={"light-layout upper-footer"}

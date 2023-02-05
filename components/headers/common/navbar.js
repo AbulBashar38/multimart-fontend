@@ -150,9 +150,7 @@ const NavBar = () => {
                   <a className="nav-link" onClick={(e) => openMblNav(e)}>
                     {" "}
                     {t(menuItem.title)}
-                    <span className="sub-arrow">
-                      <i class="fa-solid fa-sort-down"></i>
-                    </span>
+                    <span className="sub-arrow"></span>
                   </a>
                   {menuItem.children && !menuItem.megaMenu ? (
                     <ul className="nav-submenu">
