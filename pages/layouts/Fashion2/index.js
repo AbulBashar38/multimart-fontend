@@ -32,9 +32,9 @@ const Fashion2 = () => {
       <MasterParallaxBanner
         bg="parallax-banner13"
         parallaxClass="text-center p-left"
-        title="2022"
-        subTitle1="fashion trends"
-        subTitle2="special offer"
+        title="2023"
+        subTitle1="new fashion trends"
+        subTitle2="special offer for you"
       />
       <ProductSlider type="fashion" />
       <Instagram type="fashion" />

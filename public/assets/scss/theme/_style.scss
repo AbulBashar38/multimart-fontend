@@ -4597,14 +4597,18 @@ header {
   .slick-next {
     right: 0;
     &:before {
+      font: var(--fa-font-solid);
       content: "\f105";
+      font-size: 20px;
     }
   }
   .slick-prev {
     left: unset;
     right: 25px;
     &:before {
+      font: var(--fa-font-solid);
       content: "\f104";
+      font-size: 20px;
     }
   }
   .offer-slider {

@@ -10,8 +10,8 @@ const CopyRight = ({ layout, fluid }) => {
             <Col xl="6" md="6" sm="12">
               <div className="footer-end">
                 <p>
-                  <i className="fa fa-copyright" aria-hidden="true"></i> 2021-22
-                  themeforest powered by js encoder
+                  <i className="fa fa-copyright" aria-hidden="true"></i> powered
+                  by js encoder
                 </p>
               </div>
             </Col>

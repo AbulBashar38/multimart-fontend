@@ -27,8 +27,8 @@ const MasterFooterTwo = ({
     window.addEventListener("resize", changeCollapse);
 
     return () => {
-      window.removeEventListener('resize', changeCollapse)
-    }
+      window.removeEventListener("resize", changeCollapse);
+    };
   }, []);
   return (
     <Fragment>
@@ -116,12 +116,11 @@ const MasterFooterTwo = ({
                   >
                     <div className="footer-contant">
                       <ul className="contact-details">
-                        <li>Multikart Demo Store, Demo store India 345-659</li>
-                        <li>Call Us: 123-456-7898</li>
+                        <li>Multimart Demo Store, Demo store Bangladesh</li>
+                        <li>Call Us: +8801972252777</li>
                         <li>
-                          Email Us: <a href={null}>Support@Fiot.com</a>
+                          Email Us: <a href={null}>info@jsencoder.com</a>
                         </li>
-                        <li>Fax: 123456</li>
                       </ul>
                     </div>
                   </Collapse>
