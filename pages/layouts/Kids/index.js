@@ -23,7 +23,11 @@ const Kids = () => {
     <>
       <Helmet>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" type="image/x-icon" href={"/assets/images/favicon/10.png"} />
+        <link
+          rel="icon"
+          type="image/x-icon"
+          href={"/assets/images/favicon/10.png"}
+        />
       </Helmet>
       <ModalComponent />
       <HeaderOne logoName={"logo/6.png"} topClass="top-header" />
@@ -46,7 +50,7 @@ const Kids = () => {
       <MasterParallaxBanner
         bg="parallax-banner11"
         parallaxClass="text-center p-left"
-        title="2022"
+        title="2023"
         subTitle1="top trends"
         subTitle2="special offer"
       />

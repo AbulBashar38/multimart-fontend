@@ -7,7 +7,7 @@ const Data = [
   {
     img: "home21",
     title: "for kids",
-    desc: "spring collection",
+    desc: "exclusive collection",
     link: "#",
     classes: "text-center p-right",
   },
