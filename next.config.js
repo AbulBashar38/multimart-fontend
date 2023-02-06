@@ -8,7 +8,7 @@
 
 //   // if you want to run with local graphQl un-comment below one and comment the above code
 //   // env: {
-//   //   API_URL: "http://localhost:4000/graphql",
+//   //   API_URL: "https://multi-mart-backend.onrender.com/graphql",
 //   // },
 
 //   webpack(config, options) {
@@ -25,12 +25,11 @@
 
 // module.exports = {swcMinify: true}, withPlugins([withImages], nextConfig);
 
-
 const nextConfig = {
   env: {
-    API_URL: "http://localhost:4000/graphql",
+    API_URL: "https://multi-mart-backend.onrender.com/graphql",
   },
-  reactStrictMode:true,
+  reactStrictMode: true,
   webpack(config, options) {
     config.module.rules.push({
       test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
